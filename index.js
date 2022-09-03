@@ -9,3 +9,4 @@ mongoose.connect(uri)
 .then(console.log('data base connected'))
 .catch((error)=>console.log(error))
 app.listen(port, ()=>{console.log('Connect with the port', port)})
+
